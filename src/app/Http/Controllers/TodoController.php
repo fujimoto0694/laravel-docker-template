@@ -18,14 +18,12 @@ class TodoController extends Controller
 
     public function create()
     {
-
         return view('todo.create');
     }
 
     public function store(Request $request)
     {
         $inputs = $request->all();
-
         $todo = new Todo();
         $todo->fill($inputs);
         $todo->save();
