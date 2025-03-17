@@ -25,3 +25,4 @@ Route::get('/todo', 'TodoController@index')->name('todo.index');
 
 Route::get('/todo/{id}', 'TodoController@show')->name('todo.show');
 Route::get('/todo/{id}/edit', 'TodoController@edit')->name('todo.edit');
+Route::put('/todo/{id}', 'TodoController@update')->name('todo.update');
