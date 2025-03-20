@@ -23,8 +23,12 @@ findメソッドは引数部分のデータ取得になるのでSQLはSELECT文�
 ## Todo論理削除
 
 ### traitとclassの違いとは
+classは1つのclassに対し1つのclassしか継承できないが、traitは1つのclassに対し複数のtraitを継承できる。
+classはインスタンス化できるがtraitはできない。
 
 ### traitを使用するメリットとは
+1つのclassに複数の機能が追加できる。
+コードの再利用が可能になるので可読性や保守性が向上する。
 
 ## その他
 
